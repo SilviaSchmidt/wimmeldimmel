@@ -1,0 +1,141 @@
+{	"Taube1": {
+		"locations": ["links", "oben"],
+		"farbe" : ["weiss"],
+		"special": ["fliegt", "vogel", "flügel", "taube", "fliegende"]
+		},
+	"Taube2": {
+		"locations": ["links", "mitte"],
+		"farbe" : ["weiss"],
+		"special": ["taube", "fliegt", "vogel", "flügel", "fliegende", "wolke"]
+		},
+	"Taube3": {
+		"locations": ["rechts", "oben"],
+		"farbe" : ["weiss"],
+		"special": ["taube", "fliegt", "vogel", "flügel", "fliegende", "fenster"]
+		},
+	"Wissenschaftler": {
+		"locations": ["mitte", "links"],
+		"farbe" : ["weiss", "grau"],
+		"special": ["ordner", "hält", "haare", "wissenschaftler", "person", "mensch", "mann", "kittel", "wissenschaftlerin"]
+		},
+	"Lineal": {
+		"locations": ["links", "oben"],
+		"farbe": ["gelb"],
+		"special": ["liegt", "lang", "lineal"]
+		},
+	"Treppe": {
+		"locations": ["oben"],
+		"farbe": ["blau"],
+		"special": ["verdeckt", "treppe"]
+		},
+	"Kinder": {
+		"locations": ["links", "oben"],
+		"farbe": ["grün", "orange"],
+		"special": ["fridays for future", "flagge", "stehen", "zwei", "kinder"]
+		},
+	"Klasse": {
+		"locations": ["links", "unten"],
+		"farbe": ["schwarz", "gelb"],
+		"special": ["tisch", "stuhl", "lehrer", "kinder", "schüler", "studenten", "bücher", "pflanze", "klasse", "klassenzimmer"]
+		},
+	"Stift1": {
+		"locations": ["links", "mitte"],
+		"farbe": ["grün"],
+		"special": ["groß", "stift", "bleistift", "schreibstift"]
+        },
+	"Stift2": {
+		"locations": ["rechts", "unten"],
+		"farbe": ["rot"],
+		"special": ["wolke", "stift", "bleistift", "schreibstift"]
+        },
+	"Giraffe": {
+		"locations": ["links", "mitte"],
+		"farbe": ["gelb"],
+		"special": ["kopf", "giraffe", "tier"]
+        },
+	"Europaflagge": {
+		"locations": ["links", "unten"],
+		"farbe": ["blau", "gelb"],
+		"special": ["europa", "europäische", "flagge", "europaflagge"]
+        },
+	"Buch1": {
+		"locations": ["mitte", "unten"],
+		"farbe": ["grün", "rot"],
+		"special": ["geschlossen", "pfeil", "buch"]
+        },
+	"Buch2": {
+		"locations": ["links", "oben"],
+		"farbe": ["grün"],
+		"special": ["geschlossen", "buch"]
+        },
+	"Buch3": {
+		"locations": ["links", "oben"],
+		"farbe": ["weiss"],
+		"special": ["aufgeschlagen", "buch"]
+        },
+	"Roboter1": {
+		"locations": ["mitte", "oben"],
+		"farbe": ["rot", "gelb"], 
+		"special": ["glühbirne", "roboter"]
+        },
+	"Roboter2": {
+		"locations": ["rechts", "oben"],
+		"farbe": ["gelb", "blau"], 
+		"special": ["roboter"]
+        },
+	"Roboter3": {
+		"locations": ["rechts", "unten"],
+		"farbe": ["rot", "grün"], 
+		"special": ["luftballon", "ballon", "boot", "roboter"]
+        }, 
+	"Delfin": {
+		"locations": ["rechts", "unten"],
+		"farbe": ["blau"],
+		"special": ["delfin", "fisch", "tier"]
+        },
+	"Biene": {
+		"locations": ["rechts", "mitte"],
+		"farbe": ["gelb", "schwarz", "weiss"],
+		"special": ["groß", "biene", "wespe", "insekt", "fliegend", "tier"]
+        },
+    "Planet": {
+		"locations": ["oben", "links"],
+		"farbe": ["gelb"],
+		"special": ["rund", "planet", "saturn", "ring"]
+  		},  
+	"Globus": {
+		"locations": ["mitte", "rechts", "oben"],
+		"farbe": ["blau"],
+		"special": ["rund", "globus", "erde"]
+  		},
+	"Uhr1": {
+		"locations": ["oben", "links"],
+		"farbe": ["gelb"],
+		"special": ["rund", "uhr", "zeit", "zeiger"]
+  		},
+	"Uhr2": {
+		"locations": ["oben", "rechts"],
+		"farbe": ["blau"],
+		"special": ["rund", "uhr", "klassenzimmer", "zeit", "zeiger"]
+  		},  
+	"Wissenschaftler2": {
+		"locations": ["unten", "rechts"],
+		"farbe": ["weiss", "gelb"],
+		"special": ["blond", "wissenschaftler", "mensch", "kittel", "wissenschaftlerin", "haare", "person"]
+  		},
+	"Raumschiff": {
+		"locations": ["oben", "links"], 
+		"farbe": ["rot"], 
+		"special": ["raumschiff", "rakete", "flugzeug", "spaceshuttle", "ufo"]
+  		}, 
+	"Frauen": {
+		"locations": ["oben", "links"],
+		"farbe": ["weiß", "blau", "lila"],
+		"special": ["frauen", "sänger", "sängerinnen", "band", "gruppe", "haare", "drei", "person"]
+  		},
+	"Regenbogen": {
+		"locations": ["mitte", "links"],
+		"farbe": ["bunt"],
+		"special": ["regenbogen", "verdeckt"]
+		}
+}

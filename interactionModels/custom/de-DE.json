@@ -1,0 +1,918 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "lass mal wimmeln",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "hallo",
+            "wie geht\u0027s dir",
+            "sag hallo welt",
+            "sag hallo"
+          ]
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": [
+            "ja",
+            "natürlich",
+            "jau",
+            "jo",
+            "Ja ich will",
+            "Sicher",
+            "Gerne",
+            "Ok"
+          ]
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": [
+            "leider nicht",
+            "leider nein",
+            "ne",
+            "nee",
+            "nein"
+          ]
+        },
+        {
+          "name": "GameIntent",
+          "slots": [
+            {
+              "name": "object",
+              "type": "object"
+            },
+            {
+              "name": "farbe",
+              "type": "farbe"
+            },
+            {
+              "name": "location",
+              "type": "location"
+            },
+            {
+              "name": "artikel",
+              "type": "artikel"
+            }
+          ],
+          "samples": [
+            "{artikel} {object} {artikel} {object}",
+            "{artikel} {object} {artikel} {farbe} {object}",
+            "{artikel} {farbe} {object}",
+            "{artikel} {object}",
+            "{object} {object}",
+            "{object}",
+            "{farbe} {object} {location} {object}",
+            "{object} {farbe}",
+            "{object} {location}",
+            "{farbe} {location}",
+            "{farbe} {farbe} {object} {location}",
+            "{object} {location} {farbe}",
+            "{farbe} {location} {object}",
+            "{object} {farbe} {location}",
+            "{farbe} {object} {location}",
+            "{location} {farbe} {object}"
+          ]
+        },
+        {
+          "name": "FeedbackIntent",
+          "slots": [
+            {
+              "name": "first",
+              "type": "first"
+            },
+            {
+              "name": "second",
+              "type": "second"
+            },
+            {
+              "name": "third",
+              "type": "third"
+            },
+            {
+              "name": "forth",
+              "type": "forth"
+            }
+          ],
+          "samples": [
+            "{forth}",
+            "{third}",
+            "{second}",
+            "{first}",
+            "ich möchte ein feedback geben",
+            "feedback geben",
+            "feedback"
+          ]
+        },
+        {
+          "name": "SpielBeendenIntent",
+          "slots": [],
+          "samples": [
+            "spiel beenden"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "zeiger"
+              }
+            },
+            {
+              "name": {
+                "value": "zeit"
+              }
+            },
+            {
+              "name": {
+                "value": "tier",
+                "synonyms": [
+                  "tierisch"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "fenster"
+              }
+            },
+            {
+              "name": {
+                "value": "regenbogen"
+              }
+            },
+            {
+              "name": {
+                "value": "drei"
+              }
+            },
+            {
+              "name": {
+                "value": "gruppe"
+              }
+            },
+            {
+              "name": {
+                "value": "band"
+              }
+            },
+            {
+              "name": {
+                "value": "sängerinnen"
+              }
+            },
+            {
+              "name": {
+                "value": "sänger"
+              }
+            },
+            {
+              "name": {
+                "value": "frauen"
+              }
+            },
+            {
+              "name": {
+                "value": "ufo"
+              }
+            },
+            {
+              "name": {
+                "value": "spaceshuttle"
+              }
+            },
+            {
+              "name": {
+                "value": "flugzeug"
+              }
+            },
+            {
+              "name": {
+                "value": "rakete"
+              }
+            },
+            {
+              "name": {
+                "value": "raumschiff"
+              }
+            },
+            {
+              "name": {
+                "value": "person",
+                "synonyms": [
+                  "personen"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "mensch"
+              }
+            },
+            {
+              "name": {
+                "value": "kittel"
+              }
+            },
+            {
+              "name": {
+                "value": "frau"
+              }
+            },
+            {
+              "name": {
+                "value": "mann"
+              }
+            },
+            {
+              "name": {
+                "value": "wissenschaftlerin"
+              }
+            },
+            {
+              "name": {
+                "value": "blond",
+                "synonyms": [
+                  "blonden",
+                  "blonde",
+                  "blonder",
+                  "blonde"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "klassenzimmer"
+              }
+            },
+            {
+              "name": {
+                "value": "rund",
+                "synonyms": [
+                  "runden",
+                  "rundes",
+                  "runder",
+                  "runde"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "uhr"
+              }
+            },
+            {
+              "name": {
+                "value": "globus"
+              }
+            },
+            {
+              "name": {
+                "value": "ring"
+              }
+            },
+            {
+              "name": {
+                "value": "saturn"
+              }
+            },
+            {
+              "name": {
+                "value": "planet"
+              }
+            },
+            {
+              "name": {
+                "value": "insekt"
+              }
+            },
+            {
+              "name": {
+                "value": "wespe"
+              }
+            },
+            {
+              "name": {
+                "value": "biene"
+              }
+            },
+            {
+              "name": {
+                "value": "fisch"
+              }
+            },
+            {
+              "name": {
+                "value": "delfin"
+              }
+            },
+            {
+              "name": {
+                "value": "boot"
+              }
+            },
+            {
+              "name": {
+                "value": "ballon"
+              }
+            },
+            {
+              "name": {
+                "value": "luftballon"
+              }
+            },
+            {
+              "name": {
+                "value": "glühbirne"
+              }
+            },
+            {
+              "name": {
+                "value": "roboter"
+              }
+            },
+            {
+              "name": {
+                "value": "aufgeschlagen",
+                "synonyms": [
+                  "aufgeschlagene",
+                  "aufgeschlagenes",
+                  "aufgeschlagene",
+                  "aufgeschlagenen",
+                  "aufgeschlagener"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "geschlossen",
+                "synonyms": [
+                  "geschlossenes",
+                  "geschlossenen",
+                  "geschlossener",
+                  "geschlossen",
+                  "geschlossene"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "pfeil"
+              }
+            },
+            {
+              "name": {
+                "value": "buch"
+              }
+            },
+            {
+              "name": {
+                "value": "europäische",
+                "synonyms": [
+                  "europäischen",
+                  "europäischer"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "europaflagge"
+              }
+            },
+            {
+              "name": {
+                "value": "europa"
+              }
+            },
+            {
+              "name": {
+                "value": "kopf"
+              }
+            },
+            {
+              "name": {
+                "value": "giraffe"
+              }
+            },
+            {
+              "name": {
+                "value": "wolke"
+              }
+            },
+            {
+              "name": {
+                "value": "schreibstift"
+              }
+            },
+            {
+              "name": {
+                "value": "bleistift"
+              }
+            },
+            {
+              "name": {
+                "value": "groß",
+                "synonyms": [
+                  "großes",
+                  "großen",
+                  "großer",
+                  "große"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "stift"
+              }
+            },
+            {
+              "name": {
+                "value": "pflanze"
+              }
+            },
+            {
+              "name": {
+                "value": "schüler"
+              }
+            },
+            {
+              "name": {
+                "value": "bücher"
+              }
+            },
+            {
+              "name": {
+                "value": "studenten"
+              }
+            },
+            {
+              "name": {
+                "value": "lehrer"
+              }
+            },
+            {
+              "name": {
+                "value": "stuhl"
+              }
+            },
+            {
+              "name": {
+                "value": "tisch"
+              }
+            },
+            {
+              "name": {
+                "value": "klasse"
+              }
+            },
+            {
+              "name": {
+                "value": "zwei"
+              }
+            },
+            {
+              "name": {
+                "value": "stehen",
+                "synonyms": [
+                  "stehenden",
+                  "stehendes",
+                  "stehender",
+                  "stehende",
+                  "stehend"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "flagge"
+              }
+            },
+            {
+              "name": {
+                "value": "fridays for future"
+              }
+            },
+            {
+              "name": {
+                "value": "kinder"
+              }
+            },
+            {
+              "name": {
+                "value": "verdeckt",
+                "synonyms": [
+                  "verdeckten",
+                  "verdecktes",
+                  "verdeckter",
+                  "verdeckte"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "treppe"
+              }
+            },
+            {
+              "name": {
+                "value": "lang",
+                "synonyms": [
+                  "langen",
+                  "langes",
+                  "langer",
+                  "lange"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "liegt",
+                "synonyms": [
+                  "liegenden",
+                  "liegende",
+                  "liegender",
+                  "liegendes",
+                  "liegend"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "lineal"
+              }
+            },
+            {
+              "name": {
+                "value": "haare"
+              }
+            },
+            {
+              "name": {
+                "value": "hält"
+              }
+            },
+            {
+              "name": {
+                "value": "ordner"
+              }
+            },
+            {
+              "name": {
+                "value": "wissenschaftler"
+              }
+            },
+            {
+              "name": {
+                "value": "fliegende",
+                "synonyms": [
+                  "fliegend",
+                  "fliegenden",
+                  "fliegender",
+                  "fliegendes"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "fliegt"
+              }
+            },
+            {
+              "name": {
+                "value": "flügel"
+              }
+            },
+            {
+              "name": {
+                "value": "taube"
+              }
+            },
+            {
+              "name": {
+                "value": "vogel"
+              }
+            }
+          ],
+          "name": "object"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "bunt",
+                "synonyms": [
+                  "bunter",
+                  "bunten",
+                  "bunte"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "gelb",
+                "synonyms": [
+                  "gelber",
+                  "gelbes",
+                  "gelben",
+                  "gelbe"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "grau",
+                "synonyms": [
+                  "grauer",
+                  "graues",
+                  "grauen",
+                  "graue"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "lila",
+                "synonyms": [
+                  "violett"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "orange",
+                "synonyms": [
+                  "oranges",
+                  "oranger",
+                  "orange",
+                  "orangen"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "weiss",
+                "synonyms": [
+                  "weisses",
+                  "weisser",
+                  "weissen",
+                  "weisse",
+                  "creme"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "schwarz",
+                "synonyms": [
+                  "schwarzes",
+                  "schwarzer",
+                  "schwarzen",
+                  "schwarze"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "blau",
+                "synonyms": [
+                  "blauer",
+                  "blaues",
+                  "blauen",
+                  "blaue",
+                  "dunkelblau",
+                  "hellblau"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "grün",
+                "synonyms": [
+                  "grünes",
+                  "grüner",
+                  "grünen",
+                  "grüne",
+                  "dunkelgrün",
+                  "hellgrün",
+                  "türkis"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "rot",
+                "synonyms": [
+                  "rotes",
+                  "roter",
+                  "roten",
+                  "rote",
+                  "bordeaux",
+                  "dunkelrot",
+                  "hellrot"
+                ]
+              }
+            }
+          ],
+          "name": "farbe"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "mitte",
+                "synonyms": [
+                  "in der mitte",
+                  "mittig"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "unten",
+                "synonyms": [
+                  "unterhalb"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "oben",
+                "synonyms": [
+                  "oberhalb"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "rechts"
+              }
+            },
+            {
+              "name": {
+                "value": "links",
+                "synonyms": [
+                  "auf der linken Seite"
+                ]
+              }
+            }
+          ],
+          "name": "location"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "des"
+              }
+            },
+            {
+              "name": {
+                "value": "den"
+              }
+            },
+            {
+              "name": {
+                "value": "dem"
+              }
+            },
+            {
+              "name": {
+                "value": "das"
+              }
+            },
+            {
+              "name": {
+                "value": "die"
+              }
+            },
+            {
+              "name": {
+                "value": "der"
+              }
+            }
+          ],
+          "name": "artikel"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "gar nicht"
+              }
+            },
+            {
+              "name": {
+                "value": "geht so"
+              }
+            },
+            {
+              "name": {
+                "value": "sehr"
+              }
+            }
+          ],
+          "name": "first"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "sehr unzufrieden"
+              }
+            },
+            {
+              "name": {
+                "value": "unzufrieden"
+              }
+            },
+            {
+              "name": {
+                "value": "zufrieden"
+              }
+            },
+            {
+              "name": {
+                "value": "sehr zufrieden"
+              }
+            }
+          ],
+          "name": "second"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "gar keine"
+              }
+            },
+            {
+              "name": {
+                "value": "ein wenig"
+              }
+            },
+            {
+              "name": {
+                "value": "viel"
+              }
+            },
+            {
+              "name": {
+                "value": "sehr viel"
+              }
+            }
+          ],
+          "name": "third"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "keinem"
+              }
+            },
+            {
+              "name": {
+                "value": "einem"
+              }
+            },
+            {
+              "name": {
+                "value": "weniger als fünf"
+              }
+            },
+            {
+              "name": {
+                "value": "mehr als fünf"
+              }
+            }
+          ],
+          "name": "forth"
+        }
+      ]
+    }
+  },
+  "version": "111"
+}
