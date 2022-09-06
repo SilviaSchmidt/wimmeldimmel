@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-06T10:52:13.809Z" agent="5.0 (X11)" etag="3anw6XHWhbAQNHuSbLrH" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-06T11:55:35.008Z" agent="5.0 (X11)" etag="zHHt9DYS5beSG8Qle5j9" version="20.2.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="546" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -115,16 +115,64 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="dtmNaNjIhoNiC98h7geO-29" value="Alexa: Juhu!" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="dtmNaNjIhoNiC98h7geO-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dtmNaNjIhoNiC98h7geO-29" target="dtmNaNjIhoNiC98h7geO-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dtmNaNjIhoNiC98h7geO-29" value="&lt;div&gt;Alexa: &lt;br&gt;&lt;/div&gt;&lt;div&gt;Juhu! Jetzt bis du an der Reihe!&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="470" y="640" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dtmNaNjIhoNiC98h7geO-30" value="Speicher gebrauchte Objekte" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="480" y="505" width="100" height="80" as="geometry" />
+        <mxCell id="dtmNaNjIhoNiC98h7geO-30" value="Speicher gebrauchte Objekte + Zeit" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="480" y="545" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="dtmNaNjIhoNiC98h7geO-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dtmNaNjIhoNiC98h7geO-29" target="dtmNaNjIhoNiC98h7geO-30">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="310" y="500" as="sourcePoint" />
             <mxPoint x="360" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dtmNaNjIhoNiC98h7geO-33" value="Exit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="285" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dtmNaNjIhoNiC98h7geO-34" value="&lt;div&gt;Statistik:&lt;/div&gt;&lt;div&gt;gefundene Objekte&lt;/div&gt;&lt;div&gt;Durchschnittszeit&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="285" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dtmNaNjIhoNiC98h7geO-35" value="&lt;div&gt;Alexa: &lt;br&gt;&lt;/div&gt;&lt;div&gt;Tschüss und bis zum nächsten Mal!&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="285" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dtmNaNjIhoNiC98h7geO-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dtmNaNjIhoNiC98h7geO-26" target="dtmNaNjIhoNiC98h7geO-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="710" as="sourcePoint" />
+            <mxPoint x="190" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="275" y="740" />
+              <mxPoint x="120" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dtmNaNjIhoNiC98h7geO-38" value="nein" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dtmNaNjIhoNiC98h7geO-36">
+          <mxGeometry x="0.0939" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dtmNaNjIhoNiC98h7geO-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dtmNaNjIhoNiC98h7geO-37" target="dtmNaNjIhoNiC98h7geO-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dtmNaNjIhoNiC98h7geO-37" value="&lt;div&gt;Alexa:&lt;/div&gt;&lt;div&gt;Bitte beschreibe mir das Objekt genauer.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="60" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dtmNaNjIhoNiC98h7geO-46" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Auswahl Objekt aus Container&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="650" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dtmNaNjIhoNiC98h7geO-48" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dtmNaNjIhoNiC98h7geO-14" target="dtmNaNjIhoNiC98h7geO-46">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="770" as="sourcePoint" />
+            <mxPoint x="630" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="560" />
+              <mxPoint x="240" y="520" />
+              <mxPoint x="710" y="520" />
+              <mxPoint x="710" y="570" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
